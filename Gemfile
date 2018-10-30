@@ -7,11 +7,15 @@ end
 
 gem 'coffee-script-source', '1.9.0'
 gem 'devise'
+gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap-sass'
+gem 'therubyracer', :platform => :ruby
+gem 'execjs'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
